@@ -19,8 +19,8 @@ public class Vehiculos {
     }
 
     // Métodos setter
-    public void setColor() {
-        color = "Azul";
+    public void setColor(String colorVehiculo) {
+        color = colorVehiculo;
     }
 
     // Método getter
