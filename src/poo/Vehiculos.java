@@ -10,8 +10,8 @@ public class Vehiculos {
     private int peso;
 
     // Constructor
-    public Vehiculos() {
-        ruedas = 4;
+    public Vehiculos(int ruedas) {
+        this.ruedas = ruedas;
         color = "Sin color";
         largo = 2;
         ancho = 1;
@@ -27,5 +27,9 @@ public class Vehiculos {
     public String getColor() {
         return color;
 
+    }
+
+    public int getRueas() {
+        return ruedas;
     }
 }
